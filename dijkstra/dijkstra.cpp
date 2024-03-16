@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
         "  -i <vertex>: specify the initial vertex to calculate the minimum path\n"
         "  -h: display this help\n";
 
-    while ((opt = getopt(argc, argv, "hoif:")) != -1) {
+    while ((opt = getopt(argc, argv, "ho:i:f:")) != -1) {
         switch (opt) {
             case 'h':
                 cout << help_message;
