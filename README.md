@@ -4,7 +4,7 @@ Implementação em C++ dos algoritmos de Dijkstra, Kruskal, Prim, Kosaraju e Bel
 
 Para compilar, é necessário executar o comando `make` na pasta do algoritmo escolhido.
 
-A pasta `Bat1` contém uma bateria de testes para cada problema, apresentando as instâncias e o gabarito. As instâncias do algoritmo de Bellman-Ford podem ser encontradas em `Bat1/instances_bm`, e seu respectivo gabarito em `Bat1/answer_bm`
+A pasta `Bat1` contém uma bateria de testes para cada problema, incluindo as instâncias, o gabarito e o script de execução `Bat1.sh`. As instâncias do algoritmo de Bellman-Ford podem ser encontradas em `Bat1/instances_bm`, e seu respectivo gabarito em `Bat1/answer_bm`. O script de bateria de testes do algoritmo de Bellman-Ford pode ser encontrado em `Bat1/BatBm.sh`
 
 **As instâncias escolhidas para execução devem ser indexadas a partir do 1**. Caso a entrada seja um digrafo, é necessário que o número de arestas seja acompanhado de um número negativo, para identificação.
 
