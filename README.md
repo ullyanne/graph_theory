@@ -6,7 +6,7 @@ Para compilar, é necessário executar o comando `make` na pasta do algoritmo es
 
 A pasta `Bat1` contém uma bateria de testes para cada problema, incluindo as instâncias, o gabarito e o script de execução `Bat1.sh`. As instâncias do algoritmo de Bellman-Ford podem ser encontradas em `Bat1/instances_bm`, e seu respectivo gabarito em `Bat1/answer_bm`. O script de bateria de testes do algoritmo de Bellman-Ford pode ser encontrado em `Bat1/BatBm.sh`
 
-**As instâncias escolhidas para execução devem ser indexadas a partir do 1**. Caso a entrada seja um digrafo, é necessário que o número de arestas seja acompanhado de um número negativo, para identificação.
+**As instâncias escolhidas para execução devem ser indexadas a partir do 1**. Se a flag `-i` não for utilizada no momento de execução do binário, o vértice inicial padrão escolhido será 1. Caso a entrada do algoritmo de Bellman-Ford seja um digrafo, é necessário que o número de arestas seja acompanhado de um número negativo, para identificação.
 
 A entrada segue o formato:
 
